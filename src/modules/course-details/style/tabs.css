@@ -1,0 +1,16 @@
+.custom-tab:not(:last-child) {
+  border-right: 2px solid var(--secondry-dark);
+}
+
+.custom-tab {
+  color: black !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  text-transform: capitalize !important;
+}
+
+.custom-tab.Mui-selected {
+  background-color: var(--secondry);
+  color: var(--text-color) !important;
+  border-bottom: none;
+}

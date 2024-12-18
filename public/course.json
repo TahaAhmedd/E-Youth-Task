@@ -1,0 +1,73 @@
+{
+  "title": "Agile and Scrum Masterclass",
+  "description": "Learn the basics of Agile methodologies and the role of a Scrum Master in project management.",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Section 1: Introduction",
+      "items": [
+        {
+          "id": 1,
+          "name": "How it started",
+          "duration": "2min",
+          "completed": true,
+          "sectionId": 1,
+          "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+          "id": 2,
+          "name": "Scrum master in scrum guide",
+          "duration": "2min",
+          "completed": true,
+          "sectionId": 1,
+          "video": "https://filesamples.com/samples/video/mp4/sample_960x540.mp4"
+        },
+        {
+          "id": 3,
+          "name": "Coaching the team",
+          "duration": "2min",
+          "completed": false,
+          "sectionId": 1,
+          "video": "https://file-examples.com/storage/fe9de9314aef0e7a9f18296/2017/04/file_example_MP4_640_3MG.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Section 2: Agile Frameworks",
+      "items": [
+        {
+          "id": 4,
+          "name": "Overview of Agile frameworks",
+          "duration": "5min",
+          "completed": false,
+          "sectionId": 2,
+          "video": "https://download.blender.org/peach/trailer_480p.mov"
+        },
+        {
+          "id": 5,
+          "name": "Scrum vs Kanban",
+          "duration": "4min",
+          "completed": false,
+          "sectionId": 2,
+          "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is Scrum?",
+      "answer": "Scrum is a lightweight framework that helps teams work together in an Agile way to deliver projects."
+    },
+    {
+      "id": 2,
+      "question": "Who is a Scrum Master?",
+      "answer": "A Scrum Master is responsible for facilitating Scrum processes and removing obstacles for the team."
+    }
+  ],
+  "students": 30,
+  "level": "Beginner Level",
+  "poster": "https://via.placeholder.com/640x360.png?text=Video+Poster"
+}

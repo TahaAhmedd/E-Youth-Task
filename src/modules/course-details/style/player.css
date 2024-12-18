@@ -1,0 +1,33 @@
+.video-player:hover .navigation-btn {
+  opacity: 1;
+}
+.navigation-btn {
+  cursor: pointer;
+  width: 60px;
+  height: 45px;
+  background-color: var(--main-light);
+  display: grid;
+  place-items: center;
+  border: none;
+  position: absolute;
+  top: 50%;
+  opacity: 0.19;
+  transition: opacity 0.5s ease-in-out;
+  transform: translateY(-50%);
+}
+
+.navigation-btn.next {
+  right: 0;
+}
+
+.navigation-btn.prev {
+  left: 0;
+}
+.navigation-btn span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+}

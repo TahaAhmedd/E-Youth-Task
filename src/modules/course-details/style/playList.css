@@ -1,0 +1,75 @@
+.time-line {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.time-line > div {
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.time-line > div li {
+  position: relative;
+  border-left: 1px solid var(--secondry-dark);
+  padding-left: 15px;
+  z-index: 2;
+}
+
+.time-line > div.active {
+  border: 1px solid var(--secondry-dark);
+  border-radius: 10px;
+  padding-top: 2px;
+}
+
+.time-line > div:last-child li {
+  border-left: none;
+}
+
+.time-line > div li .video-icon {
+  position: absolute;
+  top: 0;
+  left: -10.5px;
+  width: 20px;
+  height: 20px;
+  color: var(--main-light);
+  z-index: 1;
+}
+
+#playList:checked ~ .parent-playlist {
+  right: 0;
+}
+
+.parent-playlist {
+  position: absolute;
+  right: -200%;
+  top: 0;
+  min-width: fit-content;
+  transition: right 0.4s ease-in-out;
+}
+
+#playList:checked ~ .toogle-sidebar {
+  display: none;
+}
+
+#playList:not(:checked) ~ .col-9 {
+  width: 100%;
+}
+
+.toogle-sidebar {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 40px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background-color: #555555;
+  color: #fff;
+  z-index: 5;
+  transition: width 0.3s ease-in-out;
+}
+
+.toogle-sidebar:hover {
+  width: 60px;
+}
