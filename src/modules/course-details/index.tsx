@@ -13,7 +13,7 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 export const Component = () => {
   return (
     <CourseProvider>
-      <div className='w-100 h-100 row g-0 position-relative'>
+      <div className='w-100 h-100 row g-0 position-relative overflow-hidden'>
         {/* this input for toggle play list */}
         <input type='checkbox' hidden id='playList' defaultChecked />
 
